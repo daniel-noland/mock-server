@@ -11,9 +11,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "chance": "^1.0.10",
-    "cors": "^2.8.3",
+    "cors": "^2.8.4",
     "express": "^4.15.3",
+    "http": "0.0.0",
+    "ws": "^5.2.0",
     "yamljs": "^0.2.10"
   }
 }
