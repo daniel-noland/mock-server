@@ -58,11 +58,12 @@ wss.on("connection", ws => {
       }
     } else if (message === "hosts") {
       for (key in hostsData.hosts_data) {
+        const hosts = hostsData.hosts_data;
         setInterval(function() {
-          hostsData.hosts_data[key].forEach(function(item) {
+          hosts.hosts.forEach(function(item) {
             ws.send(JSON.stringify(item));
           });
-        }, 5000);
+        }, 900);
       }
     } else if (message === "services") {
       for (key in tenantsData.tenants_data) {

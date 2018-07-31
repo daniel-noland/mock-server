@@ -1,11 +1,25 @@
 users:
 - id: U10000
-  name: J.R.R Hemingway
+  name: Thomas Hemingway
+  organization: Equinix
   username: fakeuser
   password: fakepass
-  country: CAD
+  country: USA
   address1: 555 La Floridita Way
   phone: 15551234567
+  owned_endpoint_ids: [{endpoint_id: "ghsgjhsghjgj", endpoint_name: "endpoint1"},
+  {endpoint_id: "1567hjgj", endpoint_name: "endpoint2"}]
+
+- id: U10002
+  name: Pepe Ricon
+  organization: Equinix
+  username: fakeuser
+  password: fakepass
+  country: USA
+  address1: 555 La Floridita Way
+  phone: 15551234567
+  owned_endpoint_ids: [{endpoint_id: "90ghjgj", endpoint_name: "endpoint3"},
+  {endpoint_id: "9999jgj", endpoint_name: "endpoint4"}]
 
 
 endpoints:
